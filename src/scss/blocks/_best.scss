@@ -1,0 +1,25 @@
+.best {
+
+   img {
+      width: 100%;
+      height: 100%;
+   }
+
+   &__title-wrapper {
+      margin-bottom: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      @include mobile {
+         margin-bottom: 8px;
+      }
+
+   }
+
+   &__link {
+      @include mobile {
+         display: none;
+      }
+   }
+}
